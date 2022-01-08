@@ -11,11 +11,11 @@
                     <form class="form mt-2 bg-light p-2 ">
                         <div class="mb-3">
                             <label for="exampleInputName" class="form-label">Name</label>
-                            <input type="Name" class="form-control" id="exampleInputName">
+                            <input type="Name" class="form-control" id="exampleInputName" [(ngModel="name.name" )]>
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" placeholder="name@gmail.com" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <input type="email" placeholder="name@gmail.com" [(ngModel="name.name" )]class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
 
                         </div>
 
@@ -24,7 +24,7 @@
                             <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
 
                         </div>
-                        <button type="submit" class="btn btn-primary">Create</button>
+                        <button type="submit" class="btn btn-primary " click()="getDataFromForm">Create</button>
                     </form>
                 </div>
 
