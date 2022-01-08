@@ -11,6 +11,7 @@ export class AppComponent {
   nameOfAuthor=""
   emailOfAuthour=""
   quoteFromAuthor=""
+  
   dateOfPost=""
   upvoteCount=""
   downvoteCount=""
