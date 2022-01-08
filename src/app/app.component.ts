@@ -11,11 +11,15 @@ export class AppComponent {
   nameOfAuthor=""
   emailOfAuthour=""
   quoteFromAuthor=""
-  
+
   dateOfPost=""
   upvoteCount=""
   downvoteCount=""
 
+  // function to listen on click button
+  getDataFromForm(){
+
+  }
 
 
 } 
