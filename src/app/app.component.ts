@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'QuoteApp';
-}
+  // unassigned variable,to be updated on imput
+  nameOfAuthor=""
+  emailOfAuthour=""
+  quoteFromAuthor=""
+  dateOfPost=""
+  upvoteCount=""
+  downvoteCount=""
+
+
+
+} 
