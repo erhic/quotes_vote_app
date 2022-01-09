@@ -40,20 +40,20 @@
                     <form class="form mt-2 bg-light p-2 ">
                         <div class="mb-3">
                             <label for="exampleInputName" class="form-label">Name</label>
-                            <input type="Name" class="form-control" id="exampleInputName">
+                            <input [(ngModel)]="newQuote.person" name="person" type="Name" class="form-control" id="exampleInputName">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" placeholder="name@gmail.com" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <label for="exampleInputEmail1" class="form-label">Author</label>
+                            <input [(ngModel)]="newQuote.author" name="author" type="email" placeholder="Author name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
 
                         </div>
 
                         <div class="mb-3 mt-3">
                             <label class="py-2" for="floatingTextarea"> Write your quote here</label>
-                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                            <textarea [(ngModel)]="newQuote.quoteWords" name="quoteWords" class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
 
                         </div>
-                        <button type="submit" class="btn btn-primary ">Create</button>
+                        <button type="submit" class="btn btn-primary " (click)="getDataForForm()">Create</button>
                     </form>
                 </div>
 

@@ -1,3 +1,7 @@
-<p class="text-success text-end" id="authorname">
-    <span class="text-dark px-1">Author:</span> {{quote.author}}
-</p>
+<div class="">
+    <span id="authorname" class="text-dark px-1 text-success text-start">Author:</span> {{quote.author}}
+    <div class="text-success text-end">
+        <span class="text-dark px-1"><i  role="button" class="bi bi-hand-thumbs-up-fill text-success"></i></span> {{quote.upvote}}
+        <span class="text-dark px-1"><i  role="button" class="bi bi-hand-thumbs-down-fill text-danger"></i></span> {{quote.downvote}}
+    </div>
+</div>

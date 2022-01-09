@@ -3,10 +3,11 @@
         <div *ngFor='let quote of quotes' class="col-md-5  d-flex card gx-2 my-2 justify-content-center px-3 py-3" id="quotecard">
             <div class="card-title ">
                 Submitted by : <span class="text-info">{{quote.person}}</span>
+
                 <div class="card-body bg-light">
-                    <p class="fw-bold">{{quote.quoteWords}}</p>
+                    <p class="fw-bold fs-4 text">{{quote.quoteWords}}</p>
                 </div>
-            </div>
+            </div><span class="text-start">Posted : {{quote.timeElapsed|timeCount}}</span>
             <app-quote-details [quote]='quote'></app-quote-details>
         </div>
     </div>

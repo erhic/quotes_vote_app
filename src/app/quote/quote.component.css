@@ -1,14 +1,14 @@
 #quotecard {
-    margin: auto;
     display: flex;
     flex-direction: column;
     flex: auto;
     flex-wrap: wrap;
     column-gap: 5px;
+    width: 100px;
 }
 
 #quotecontainer {
-    background-color: rgb(212, 221, 212);
+    background: linear-gradient(#e1dbdb, #bcdeeb)
 }
 
 #quot {
