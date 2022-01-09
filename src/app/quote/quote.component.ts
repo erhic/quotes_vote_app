@@ -8,12 +8,12 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quotes:Quote[] = [
-    {id:1, name:'never never finding Nemo',author:'John'},
-    {id:2,name:'Buy Cookies',author:'John'},
-    {id:3,name:'Get new Phone Case',author:'John'},
-    {id:4,name:'Get Dog Food',author:'John'},
-    {id:5,name:'Solve math homework',author:'John'},
-    {id:6,name:'Plot my world domination plan',author:'John'},
+    {person:'Alex', quoteWords:`"never never finding Nemo"`,author:'John',upvote:20,downvote:2,timeElapsed:new Date()},
+    {person:'Miriam',quoteWords:`"Buy Cookies"`,author:'Brian',upvote:20,downvote:2,timeElapsed:new Date()},
+    {person:'Ann',quoteWords:`"Get new Phone Case"`,author:'Eistien',upvote:20,downvote:2,timeElapsed:new Date()},
+    {person:'Joan',quoteWords:`"Get Dog Food"`,author:'Bob',upvote:20,downvote:2,timeElapsed:new Date()},
+    {person:'Tedd',quoteWords:`"Solve math homework"`,author:'Nelson Mandela',upvote:20,downvote:2,timeElapsed:new Date()},
+    {person:'Mark',quoteWords:`"Plot my world domination plan"`,author:'Lurther King',upvote:20,downvote:2,timeElapsed:new Date()}
   ];
 
   

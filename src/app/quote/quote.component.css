@@ -1,8 +1,16 @@
-#quote {
-    height: 100vh;
+#quotecard {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    flex-wrap: wrap;
+    column-gap: 5px;
 }
 
-#quotecard {
-    width: 60%;
-    color: white;
+#quotecontainer {
+    background-color: rgb(212, 221, 212);
+}
+
+#quot {
+    justify-content: space-between;
 }
