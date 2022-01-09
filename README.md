@@ -6,22 +6,46 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+### Author:  [Eric N](https://github.com/erhic/Quote_App)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Description
+----
+    This is a web application where one can create quotes as well as view those quotes posted and written by other people and vote them as an upvote or downvote.
 
-## Build
+ <!-- ### Demo
+<img src="licence/.gif"> -->
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Technologies Used
+----
+- HTML
+- CSS
+- TYPESCRIPT
+- BOOTSTRAP
+- ANGULAR
 
-## Further help
+### Installion Process
+----
+* To run the application ,the required tools required is mainly a browser application example like google chrome and access to the internet. To access the aplication online <kbd>click</kbd> (https://github.com/erhic/Quote_vote_App).
+The application can run a mobile device or a computer.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* To use the application offline in your local device;
+*Create a folder in you local device the proceed and clone the site using the link (git clone git@github.com:erhic/Quote-vote_App.git)
+### Bug
+----
+There is no identified bug.
+### Contacts
+----
+For feedback or any information pertaining this project feel free to reach me through :
+
+Email: ericgichovi@moringa.student.com
+
+### Licence 
+---
+
+[ LICENCE](LICENSE) 
+ (link to MIT License )
+
