@@ -15,7 +15,11 @@ export class QuoteComponent implements OnInit {
     // {person:'Tedd',quoteWords:`"Solve math homework"`,author:'Nelson Mandela',upvote:20,downvote:2,timeElapsed:new Date()},
     // {person:'Mark',quoteWords:`"Plot my world domination plan"`,author:'Lurther King',upvote:20,downvote:2,timeElapsed:new Date()}
   ];
-
+  upvote: number | undefined;
+getVote(){
+  this.upvote
+  
+}
   addNewQuote(quote:Quote){this.quotes.push(quote)
     console.log(quote)
   }
