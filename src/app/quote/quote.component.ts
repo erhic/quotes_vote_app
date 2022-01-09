@@ -16,6 +16,9 @@ export class QuoteComponent implements OnInit {
     // {person:'Mark',quoteWords:`"Plot my world domination plan"`,author:'Lurther King',upvote:20,downvote:2,timeElapsed:new Date()}
   ];
 
+  addNewQuote(quote:Quote){this.quotes.push(quote)
+    console.log(quote)
+  }
   
   constructor() { }
 
