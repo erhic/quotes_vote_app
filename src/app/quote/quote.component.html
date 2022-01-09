@@ -1,1 +1,8 @@
 <p>quote works!</p>
+<div class="container">
+    <div class="row row-cols-2"></div>
+    <div *ngFor='let quote of quotes' class="card bg-primary " id="quotecard">
+        {{quote.name}} status is {{quote.author}}
+        <app-quote-details [quote]='quote'></app-quote-details>
+    </div>
+</div>
