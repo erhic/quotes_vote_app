@@ -30,6 +30,13 @@ The application can run a mobile device or a computer.
 
 * To use the application offline in your local device;
 *Create a folder in you local device the proceed and clone the site using the link (git clone git@github.com:erhic/quotes_vote_app.gitgit)
+
+* Run the following command to install all the packages required<br>
+<kbd>npm install</kbd><br>
+Add the following to start development server<br>
+<kbd>npm start</kbd>.
+Open the browser and navigate to the directed port to see the application in action
+
 ### Bug
 ----
 There is no identified bug.
