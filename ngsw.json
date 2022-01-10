@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1641841221718,
+  "timestamp": 1641843795312,
   "index": "https://erhic.github.io/quotes_vote_app/index.html",
   "assetGroups": [
     {
@@ -60,7 +60,7 @@
     "https://erhic.github.io/quotes_vote_app/assets/images/quotes.png": "0b64d0bc9548998ff24c3db0bb0c691102f7775e",
     "https://erhic.github.io/quotes_vote_app/assets/images/scrshoot.png": "da624334ed7a8919931549eeee2d02d5dcc657ed",
     "https://erhic.github.io/quotes_vote_app/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://erhic.github.io/quotes_vote_app/index.html": "82ac59b1d245ae542870501a3b49de85d581d874",
+    "https://erhic.github.io/quotes_vote_app/index.html": "5072d7d8f8157998d9483b9d536f5a3ca5b02689",
     "https://erhic.github.io/quotes_vote_app/main.1d6480c40aaa0312.js": "99a75e29a5924f45dbecdf0338a93657b0aa6ec0",
     "https://erhic.github.io/quotes_vote_app/manifest.webmanifest": "21adad4e1284e50e56ece8af346148a8688ecf2e",
     "https://erhic.github.io/quotes_vote_app/polyfills.150729104d61f8bb.js": "39c33bb109dfe9dfbfd7e6c2f2917e280ae0cff7",
