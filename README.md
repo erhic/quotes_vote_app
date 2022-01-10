@@ -8,7 +8,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ----
     This is a web application where one can create quotes as well as view those quotes posted and written by other people and vote them as an upvote or downvote.
 
-  ### Demo
+### Screenshot
 <img src="src/assets/images/scrshoot.png"> 
 
 
