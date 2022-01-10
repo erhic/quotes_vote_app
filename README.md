@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
-### Author:  [Eric N](https://github.com/erhic/Quote_App)
+### Author:  [Eric N](https://github.com/erhic/quotes_vote_app)
 
 ### Description
 ----
