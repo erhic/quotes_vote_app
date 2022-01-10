@@ -1,9 +1,9 @@
-<app-form (addQuote)="addNewQuote($event)">
-</app-form>
+<app-form (addQuote)="addNewQuote($event)"></app-form>
+
 <!-- <app-quote-details></app-quote-details> -->
 <div class="container bg-light" id="quotecontainer">
     <div id="quot" class="row row-cols-auto p-3">
-        <div *ngFor='let quote of quotes' let i=index; class="col-md-5  d-flex card gx-2 my-2 justify-content-center px-3 py-3" id="quotecard">
+        <div *ngFor='let quote of quotes let i=index;' class="col-md-5  d-flex card gx-2 my-2 justify-content-center px-3 py-3" id="quotecard">
             <div class="card-title ">
                 Submitted by : <span class="text-info">{{quote.person}}</span>
 
@@ -11,7 +11,9 @@
                     <p class="fw-bold fs-4 text">{{quote.quoteWords}}</p>
                 </div>
             </div><span class="text-start">Posted : {{quote.timeElapsed|timeCount}}</span>
-            <app-quote-details [quote]='quote'></app-quote-details>
+
+            <app-quote-details [quote]='quote' (removeQuote)="deleteQuote($event,i)" (addVote)="addVotes($event,i)" (minusVote)="deVotes($event,i)"></app-quote-details>
+
 
         </div>
     </div>

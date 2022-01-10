@@ -1,8 +1,8 @@
 <div class="">
     <span id="authorname" class="text-dark px-1 text-success text-start">Author:</span><i>{{quote.author}}</i>
-    <br><button class="btn-primary btn-sm" (click)="completequote(true)">Delete</button>
+    <br><button class="btn-primary btn-sm" (click)="deleteQuote()">Delete**</button>
     <div class="text-success text-end">
-        <span class="text-dark px-1"><button role="button"><i  role="button" click="getVote()" class="bi bi-hand-thumbs-up-fill text-success"></i></button></span> {{quote.upvote}}
-        <span class="text-dark px-1"><i  role="button" click="getDeVote()" class="bi bi-hand-thumbs-down-fill text-danger"></i></span> {{quote.downvote}}
+        <span class="text-dark px-1"><button role="button"><i  role="button" (click)="getVote()" class="bi bi-hand-thumbs-up-fill text-success"></i></button></span> {{quote.upvote}}
+        <span class="text-dark px-1"><i  role="button"  (click)="deVote()" class="bi bi-hand-thumbs-down-fill text-danger"></i></span> {{quote.downvote}}
     </div>
 </div>
