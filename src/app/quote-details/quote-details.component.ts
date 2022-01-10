@@ -15,9 +15,10 @@ export class QuoteDetailsComponent implements OnInit {
   @Output() addVote = new EventEmitter<Quote>();
 
     getVote(){
-      this.quote.upvote++;
+      this.quote.upvote++ 
       this.addVote.emit(this.quote);
       console.log(this.quote)
+  
 
 
     }
