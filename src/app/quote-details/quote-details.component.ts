@@ -25,7 +25,7 @@ export class QuoteDetailsComponent implements OnInit {
     @Output() minusVote = new EventEmitter<Quote>();
 
     deVote(){
-      this.quote.downvote--;
+      this.quote.downvote++;
       this.minusVote.emit(this.quote);
       console.log(this.quote)
 
