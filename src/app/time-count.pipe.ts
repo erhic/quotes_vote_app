@@ -9,8 +9,11 @@ export class TimeCountPipe implements PipeTransform {
   transform(value: any, ...args: any[]): any {
     if (value) {
       const seconds = Math.floor((+new Date() - +new Date(value)) / 1000);
-      if (seconds < 5000)
-        return 'Today';
+      if (seconds < 500){
+        return 'Today'};
+        // elseif(seconds<5000)
+        //   return 'Now'};
+        // }
       const intervals: any = {
         year: 31536000,
         month: 2592000,
@@ -30,3 +33,9 @@ export class TimeCountPipe implements PipeTransform {
     return value;
 }
 }
+
+// transform(value:number):number{
+//   return value;
+// };
+
+

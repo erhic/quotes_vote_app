@@ -9,8 +9,8 @@ import { Quote } from '../quote';
 export class QuoteComponent implements OnInit {
   quotes:Quote[] = [
      {id:1,person:'Alex', quoteWords:`"You only live once, but if you do it right, once is enough."`,author:'John',upvote:20,downvote:2,timeElapsed:new Date(2019,2,14)},
-    {id:2,person:'Miriam',quoteWords:`"Not how long, but how well you have lived is the main thing."`,author:'Brian',upvote:12,downvote:1,timeElapsed:new Date()},
-    {id:3,person:'Ann',quoteWords:`"Don’t settle for what life gives you; make life better and build something."`,author:'Eistien',upvote:42,downvote:16,timeElapsed:new Date()},
+    {id:2,person:'Miriam',quoteWords:`"Not how long, but how well you have lived is the main thing."`,author:'Brian',upvote:12,downvote:1,timeElapsed:new Date(2020,12,12)},
+    {id:3,person:'Ann',quoteWords:`"Don’t settle for what life gives you; make life better and build something."`,author:'Eistien',upvote:42,downvote:16,timeElapsed:new Date(2021,1,15)},
     // {person:'Joan',quoteWords:`"Get Dog Food"`,author:'Bob',upvote:20,downvote:2,timeElapsed:new Date()},
     // {person:'Tedd',quoteWords:`"Solve math homework"`,author:'Nelson Mandela',upvote:20,downvote:2,timeElapsed:new Date()},
     // {person:'Mark',quoteWords:`"Plot my world domination plan"`,author:'Lurther King',upvote:20,downvote:2,timeElapsed:new Date()}

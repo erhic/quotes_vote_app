@@ -10,7 +10,7 @@
                 <div class="card-body bg-light">
                     <p class="fw-bold fs-4 text">{{quote.quoteWords}}</p>
                 </div>
-            </div><span class="text-start">Posted : {{quote.timeElapsed|timeCount}}</span>
+            </div><span class="text-start">Posted : {{quote.timeElapsed |date}} <i>({{quote.timeElapsed |timeCount}})</i></span>
 
             <app-quote-details [quote]='quote' (removeQuote)="deleteQuote($event,i)" (addVote)="addVotes($event,i)" (minusVote)="deVotes($event,i)"></app-quote-details>
 
