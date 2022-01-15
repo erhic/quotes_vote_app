@@ -2,7 +2,7 @@
 
 <!-- <app-quote-details></app-quote-details> -->
 <div class="container bg-light mt-5" id="quotecontainer">
-    <div id="quot" class="row row-cols-auto p-3">
+    <div id="quot" class="row ">
         <div *ngFor='let quote of quotes let i=index;' class="col-md-5  d-flex card gx-2 my-2 justify-content-center px-3 py-3" id="quotecard">
             <div class="card-title ">
                 Submitted by : <span class="text-primary fw-bold">{{quote.person}}</span>

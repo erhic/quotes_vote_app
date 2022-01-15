@@ -4,6 +4,7 @@
     flex: auto;
     flex-wrap: wrap;
     column-gap: 5px;
+    max-width: 355px;
 }
 
 #quotecontainer {
