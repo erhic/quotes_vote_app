@@ -5,7 +5,7 @@
     <div id="quot" class="row ">
         <div *ngFor='let quote of quotes let i=index;' class="col-md-5  d-flex card gx-2 my-2 justify-content-center px-3 py-3" id="quotecard">
             <div class="card-title ">
-                Submitted by : <span class="text-primary fw-bold">{{quote.person}}</span>
+                Submitted by : <span class="text-primary fw-bold" required="false">{{quote.person}}</span>
 
                 <div class="card-body bg-light">
                     <p class="fw-bold fs-4 text">{{quote.quoteWords}}</p>
