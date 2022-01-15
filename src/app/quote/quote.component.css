@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 #quotecard {
     display: flex;
     flex-direction: column;
@@ -13,4 +14,9 @@
 
 #quot {
     justify-content: space-between;
+}
+
+#quotes {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: lighter!important;
 }
