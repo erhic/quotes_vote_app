@@ -1,4 +1,5 @@
 import { Component, OnInit ,EventEmitter,Output} from '@angular/core';
+import { HighlightquoteDirective } from '../highlightquote.directive';
 import { Quote } from '../quote';
 
 @Component({
@@ -41,18 +42,7 @@ export class QuoteComponent implements OnInit {
       this.quotes[i].downvote= quote.downvote;
 
     }
-
-// voteadd(i:number) {
-//   this.quotes[i].upvote += 1;
-
-//       console.log(this.quotes[i]);
-
-// }
-// voteminus(i:number) {
-// this.quotes[i].downvote += 1;
-
-//     console.log(this.quotes[i]);
-// }
+    
   addNewQuote(quote:Quote){
    
 
@@ -62,10 +52,13 @@ export class QuoteComponent implements OnInit {
 
       console.log(this.quotes);
   }
-  
+ 
   constructor() { }
 
   ngOnInit(): void {
+  }
+  highestVote(){
+  
   }
 
 }
